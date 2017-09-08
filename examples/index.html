@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title lang="en-US">Page Title</title>
+        <title lang="nl-NL">Pagina Titel</title>
+
+        <script src="../src/localization.js"></script>
+    </head>
+
+    <body onload="localization.Language.setLanguage('en-US')">
+
+        <h1 lang="en-US">This is a heading</h1>
+        <p lang="en-US">This is a paragraph.</p>
+
+        <h1 lang="nl-NL">Dit is een kop tekst</h1>
+        <p lang="nl-NL">Dit is een paragraaf.</p>
+
+        <button onclick="localization.Language.setLanguage('nl-NL')">NL</button>
+        <button onclick="localization.Language.setLanguage('en-US')">EN</button>
+    </body>
+
+</html>
